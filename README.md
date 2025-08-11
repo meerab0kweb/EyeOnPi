@@ -13,8 +13,8 @@ EyeOnPi is a surveillance camera system built using a Raspberry Pi. This project
 ---
 
 ## Objectives
--Apply Unix skills to configure and deploy a surveillance system.
--Leverage Raspberry Pi as an affordable and flexible hardware solution.
+- Apply Unix skills to configure and deploy a surveillance system.
+- Leverage Raspberry Pi as an affordable and flexible hardware solution.
 
 ---
 

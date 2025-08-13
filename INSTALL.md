@@ -10,14 +10,14 @@
 
 1. **Set Up your Raspberry Pi**  
    If you haven’t already set up your Raspberry Pi, follow these steps:   
-1. **Connect Hardware:**   
+2. **Connect Hardware:**   
 * Insert your Raspberry Pi into its case (if you have one).  
 * Connect a keyboard, mouse, Monitor, and power supply to the Raspberry Pi.  
 * Insert a microSD card with Raspberry Pi OS (if you need help installing Raspberry Pi OS, use the [Raspberry Pi Imager tool](https://www.raspberrypi.com/software/)).  
-1. **Boot your Raspberry Pi:**   
+3. **Boot your Raspberry Pi:**   
 * Turn on the power, and your Raspberry Pi should boot up. Following the on-screen instructions to complete the initial setup.  
     
-1. **Update Your Raspberry Pi**  
+4. **Update Your Raspberry Pi**  
    To make sure your Raspberry Pi has the latest software:  
 * Open the terminal (found in the taskbar or menu).  
 * Type the following commands one at a time and press enter after each:  
@@ -26,7 +26,7 @@
 
             This will update and upgrade your Raspberry Pi’s software.
 
-3. **Install Essential tools for MotionEye**  
+5. **Install Essential tools for MotionEye**  
    Now, install the necessary tools for MotionEye to work:  
 * Certificates for secure communication, file-downloading tools, and Python programs for handling cameras.  
 * Type this command in the terminal and press **Enter:**
@@ -34,7 +34,7 @@
 - sudo apt \--no-install-recommends install ca-certificates curl python3 python3-dev libcurl4-openssl-dev gcc libssl-dev  
     
     
-4. **Install Python Pip**  
+6. **Install Python Pip**  
    Pip is a program that helps install MotionEye and its extra features.  
 * First, check if Pip is already installed by typing:
    pip --version
@@ -46,27 +46,27 @@
 
   
 
-5. **Fix Potential Errors**  
+7. **Fix Potential Errors**  
    To prevent errors during installation, run this command:
 
      
 - sudo python3 \-m pip config set global.break-system-packages true
 
 
-6. **Install MotionEye**  
+8. **Install MotionEye**  
    Now, install MotionEye using Python Pip:  
 * Type this command and press **Enter**:
 
 
 - sudo python3 \-m pip install \--pre MotionEye
 
-7. **Set up MotionEye**  
+9. **Set up MotionEye**  
    To prepare MotionEye for managing your cameras:  
      
 - sudo motioneye\_init
 
 
-8. **Access the Motion Web Interface**  
+10. **Access the Motion Web Interface**  
    To control MotionEye through your browser:  
 1) Find your Raspberry Pi’s IP address:
 
@@ -83,7 +83,7 @@
 - Example: `http://192.168.1.2:8765`  
 4) Log in as **admin** (leave the password blank).  
 * Once logged in, go to settings and create a password for security.  
-9. **Connect your USB Camera**  
+11. **Connect your USB Camera**  
    1\. In the MotionEye web interface:  
 * Click **Add Camera**  
 * Select **UVC Camera** as the camera type.  

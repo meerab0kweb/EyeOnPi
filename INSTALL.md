@@ -14,10 +14,10 @@
 * Insert your Raspberry Pi into its case (if you have one).  
 * Connect a keyboard, mouse, Monitor, and power supply to the Raspberry Pi.  
 * Insert a microSD card with Raspberry Pi OS (if you need help installing Raspberry Pi OS, use the [Raspberry Pi Imager tool](https://www.raspberrypi.com/software/)).  
-2. **Boot your Raspberry Pi:**   
+1. **Boot your Raspberry Pi:**   
 * Turn on the power, and your Raspberry Pi should boot up. Following the on-screen instructions to complete the initial setup.  
     
-2. **Update Your Raspberry Pi**  
+1. **Update Your Raspberry Pi**  
    To make sure your Raspberry Pi has the latest software:  
 * Open the terminal (found in the taskbar or menu).  
 * Type the following commands one at a time and press enter after each:  

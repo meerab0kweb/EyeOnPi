@@ -37,9 +37,7 @@
 4. **Install Python Pip**  
    Pip is a program that helps install MotionEye and its extra features.  
 * First, check if Pip is already installed by typing:
-
-
-- pip –verison
+   pip --version
 
 
 * If it’s not installed, install it by typing:  

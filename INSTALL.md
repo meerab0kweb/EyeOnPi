@@ -68,7 +68,7 @@
 
 10. **Access the Motion Web Interface**  
    To control MotionEye through your browser:  
-1) Find your Raspberry Pi’s IP address:
+- 1) Find your Raspberry Pi’s IP address:
 
    
 
@@ -77,11 +77,11 @@
 
                        Write down the IP address shown (e.g., `192.168.1.2`).
 
-2) On your computer or phone, open a web browser.  
-3) Type this in the address bar:  
+- 2) On your computer or phone, open a web browser.  
+- 3) Type this in the address bar:  
 - `http://(your IP address):8765`  
 - Example: `http://192.168.1.2:8765`  
-4) Log in as **admin** (leave the password blank).  
+- 4) Log in as **admin** (leave the password blank).  
 * Once logged in, go to settings and create a password for security.  
 11. **Connect your USB Camera**  
    1\. In the MotionEye web interface:  

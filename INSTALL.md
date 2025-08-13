@@ -79,8 +79,8 @@
 - 4) Log in as **admin** (leave the password blank).
 - 5) Once logged in, go to settings and create a password for security.  
 11. **Connect your USB Camera**  
-- In the MotionEye web interface:  
+In the MotionEye web interface:  
 * Click **Add Camera**  
-* Select **UVC Camera** as the camera type.  
-- Your camera should now appear on the screen.  
+* Select **UVC Camera** as the camera type.
+* Your camera should now appear on the screen.  
   

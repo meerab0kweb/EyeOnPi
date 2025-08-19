@@ -36,7 +36,7 @@ run the motion software and can be the user of Raspberry Pi 400.
 
 13.Check the user running motion: ps aux \| grep motion
 
-14.Locate your IP of Raspberry Pi 400: hostname --I
+14.Locate your IP of Raspberry Pi 400: hostname -I
 
 15\. Run this command to properly run the motion config file on web the
 camera will be turned on this command is essential to run properly each

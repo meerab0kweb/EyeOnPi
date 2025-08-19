@@ -38,8 +38,8 @@ run the motion software and can be the user of Raspberry Pi 400.
 
 14.Locate your IP of Raspberry Pi 400: hostname -I
 
-15\. Run this command to properly run the motion config file on web the
-camera will be turned on this command is essential to run properly each
+15\. Run this command to properly run the motion config file on web. The
+camera will be turned on. This command is essential to run properly each
 time you want to quickly get to motion on web to work: motion -c
 /etc/motion/motion.conf
 
